@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="header">
+       <nav>
+           <a href="" class="logo">RIYA</a>
+           <div class="nav-links">
+               <ul>
+                   <li><a href="#section1">Home</a></li>
+                   <li><a href="#section2">Education</a></li>
+                   <li><a href="#section3">Projects</a></li>
+                   <li><a href="#section4">Skills</a></li>
+                   <li><a href="#section5">Connect</a></li>
+                   
+
+               </ul>
+           </div>
+       </nav>
+       <div id= "section1">
+        <div class="left-sidebar"></div>
+        <div class="row">
+            <div class="left-col">
+                <img src="images/image.jpeg">
+            </div>
+            <div class="right-col">
+                <h1>I'm Riya Chawla<br>
+                Front-End Developer</h1>
+                <p>I am a student who is extremly passionate in learning new languages . I enjoy taking up new challenges and work until the task i have taken up is completed . The enthusiasm and happiness when i first printed "hello world" carries forth till date. I believe and know that there is yet more to learn, yet more to solve, and yet more to build which is my driving force. And for this, I am grateful.</p>
+                
+            <div class="social-media">
+                <div class="icon">
+                    <img src="images/linkdin.png">
+                    <a href="https://www.linkedin.com/in/riya-chawla-b89766195">
+                     <img src="images/link.png">
+                 </a>
+                </div>
+                <div class="icon">
+                 <img src="images/github.png">
+                 <a href="https://github.com/riyachawla02">
+                  <img src="images/link.png">
+              </a>
+             </div>
+             <div class="icon">
+                 <img src="images/instagram.png">
+                 <a href="https://instagram.com">
+                  <img src="images/link.png">
+              </a>
+             </div>
+
+
+             
+ 
+ 
+ 
+            </div>
+ 
+            </div>
+        </div>
+ 
+ 
+ 
+ 
+    </div> 
+
+       </div>
+     
+   <section>
+       <div id="section2">
+
+        <div class="hero">
+            <h1> EDUCATION </h1>
+            <div class="project-box">
+                <div id="slide">
+                    <div class="card">
+                        <div class="profile">
+                         <img src="images/tit.jfif">
+                         <div>
+                         <h3>B.TECH Computer Science | Pursuing</h3>
+                         </div>
+                        </div>
+                       
+                        <h3>The Technological Institute of Textile & Sciences</h3>
+                        <p>69.28%</p>
+                        <p>07/2018-2022</p>
+                    </div>
+ 
+                    <div class="card">
+                   <div class="profile">
+                         <img src="images/gr.jfif">
+                         <div>
+                         <h3>12th</h3>
+                         </div>
+                        </div>
+                        <h3>G.R SR. SEC. SCHOOL, Gujrani</h3>
+                        <p>73.2%</p>
+                        <p>03/2018</p>
+                    </div>
+ 
+ 
+                    <div class="card">
+                    <div class="profile">
+                     <img src="images/bps.jpg">
+                     <div>
+                     <h3>10th</h3>
+                     </div>
+                    </div>
+                    <h3>BHIWANI PUBLIC SCHOOL</h3>
+                    <p>7.2 cgpa</p>
+                    <p>03/2016</p>
+                    <p></p>
+                </div>
+ 
+
+ 
+ 
+ 
+                </div>
+                <div class="sidebar">
+                <img src="images/up-arrow.png" id="upArrow">
+                <img src="images/down-arrow.png" id="downArrow">
+ </div>
+            </div>
+ 
+        </div>
+ 
+    </section>
+ 
+       </div>
+      
+
+
+<script>
+    var slide = document.getElementById("slide");
+    var upArrow = document.getElementById("upArrow");
+    var downArrow = document.getElementById("downArrow");
+
+    let x =0;
+    upArrow.onclick = function(){
+        if(x > "-900"){ 
+        x= x-300;
+        slide.style.top = x + "px";}
+       
+    }
+    downArrow.onclick = function(){
+        if(x < 0){ 
+        x= x + 300;
+        slide.style.top = x + "px";}
+       
+    }
+    
+
+
+
+
+
+</script>
+
+
+
+
+<section>
+    <div id="section3">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="rows">
+                <div class="cols">
+                    <div class="cards">
+                        <div class="inner-box">
+                            <div class="cards-front">
+                                <span>Weather App</span>
+                            </div>
+                            <div class="cards-back">
+                            
+                                <p>Created a Weather App using API to fetch the weather information to desired cities</p>
+                            </div>
+                                </div>            </div>
+                </div>
+        
+        
+        
+        
+        
+        
+                <div class="cols">
+                    <div class="cards">
+                        <div class="inner-box">
+                            <div class="cards-front">
+                                <span>Dragon Game</span>
+                            </div>
+                            <div class="cards-back">
+                                <p>Created a basic Dragon game</p>
+                            </div>
+                                </div>  
+                                      </div>
+                </div>
+        
+        
+        
+        
+                <div class="cols">
+                    <div class="cards">
+                        <div class="inner-box">
+                            <div class="cards-front">
+                                <span>Meme Sharing App</span>
+                            </div>
+                            <div class="cards-back">
+                                <p>An Android Application that uses Volley library to fetch random memes from reddit and share them with anyone.</p>
+                            </div>
+                                </div>
+                                     </div>
+                            </div>
+            </div>
+        
+        </div>
+        
+    </div>
+   
+</section>
+
+<section>
+    
+    <div id="section4">
+        <div class="centers">
+            <h1>Skills</h1>
+            <div class="skillBox">
+                <p>C++</p>
+                <p>90%</p>
+                <div class="skill">
+                    <div class="skill_level" style="width: 90%"></div>
+                    
+                </div>
+            </div>
+        
+            <div class="skillBox">
+                <p>java</p>
+                <p>75%</p>
+                <div class="skill">
+                    <div class="skill_level" style="width: 75%"></div>
+                    
+                </div>
+            </div>
+        
+            <div class="skillBox">
+                <p>Front-End Development</p>
+                <p>85%</p>
+                <div class="skill">
+                    <div class="skill_level" style="width: 85%"></div>
+                    
+                </div>
+            </div>
+        
+            <div class="skillBox">
+                <p>Android Development</p>
+                <p>65%</p>
+                <div class="skill">
+                    <div class="skill_level"style="width: 65%"></div>
+                    
+                </div>
+            </div>
+        
+            <div class="skillBox">
+                <p>SDLC</p>
+                <p>90%</p>
+                <div class="skill">
+                    <div class="skill_level" style="width: 90%"></div>
+                    
+                </div>
+            </div>
+        
+            <div class="skillBox">
+                <p>DBMS - MySQL</p>
+                <p>90%</p>
+                <div class="skill">
+                    <div class="skill_level"style="width: 90%"></div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+   
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section>
+    <div id="section5">
+        <div class="cont">
+            <h1>Connect me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam rem alias dolorum illum architecto quia eos, libero quis veniam exercitationem.</p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Send your request</h3>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Riya Chawla">
+                            </div>
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="riyachawla2001@gmail.com">
+                            </div>
+                        </div>
+                           
+    
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>phone</label>
+                                <input type="number" placeholder="**">
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" placeholder="subject">
+                            </div>
+                        </div>
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit">SEND</button>
+                           
+    
+                    </form>
+    
+    
+    
+    
+    
+                </div>
+    
+    
+    
+    
+    
+                <div class="contact-right">
+                    <h3>MESSAGE ME </h3>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>riyachawla2001@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>**</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>Haryana, Bhiwani</td>
+                        </tr>
+                       
+                    
+                    </table>
+    
+                </div>
+            </div>
+        </div>
+    
+    </div>
+   
+
+
+</section>
+
+
+<!----cursor style
+    -circle size is 50 px so -25 we hv to make it into centre
+display :block(cursor will be display when we start moving the cursor)-->
+
+<div id="cursor"></div>
+<script>
+    var cursor = document.getElementById("cursor");
+    document.onmousemove = function(e){
+        cursor.style.left = (e.pageX -25) + "px";
+        cursor.style.top = (e.pageY -25) + "px";
+        cursor.style.display = "block";  
+
+}
+</script>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+   
+</body>
+</html>
